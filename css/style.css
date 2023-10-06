@@ -14,12 +14,17 @@ body {
   font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
 }
 
-root {
+:root {
   --accent-color: #F7654A;
   --dark-color: #404149;
   --gray-color: #999999;
@@ -71,11 +76,13 @@ root {
   justify-content: space-between;
   align-items: flex-end;
 }
-.header__title .Logo {
+
+.Logo {
   width: 60px;
   height: 60px;
 }
-.header__title .burger {
+
+.burger {
   width: 50px;
   cursor: pointer;
   padding: 0;
@@ -86,14 +93,14 @@ root {
   justify-content: center;
   align-items: center;
 }
-.header__title .burger .burger__line {
+.burger .burger__line {
   display: block;
   width: 21px;
   height: 3px;
   background-color: #FFFFFF;
   margin-bottom: 4px;
 }
-.header__title .burger .burger__line:last-child {
+.burger .burger__line:last-child {
   margin-bottom: 0;
 }
 
@@ -118,4 +125,67 @@ root {
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
+}
+
+.about {
+  min-height: 1080px;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: -150px;
+  background-color: #F7F7F7;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 1110px;
+  min-height: 300px;
+  width: 100%;
+  padding: 57px 130px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.about__grid-item {
+  text-align: center;
+  width: 190px;
+}
+.about__grid-item .about__h4 {
+  color: var(--accent-color);
+  font-size: 72px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-botttom: 5px;
+}
+.about__grid-item .about__h5 {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.about__grid-item .about__p {
+  color: var(--gray-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    position: relative;
+  }
+
+  .about__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
 }
