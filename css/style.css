@@ -328,7 +328,8 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
-.services__h2 {
+.section__h2 {
+  text-align: center;
   margin-bottom: 55px;
 }
 
@@ -354,4 +355,42 @@ h1, h2, h3, h4, h5, h6, p {
 
 .services__icon {
   margin: 0 auto 21px;
+}
+
+@media screen and (max-width: 1280px) {
+  .services {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .services__grid-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    position: relative;
+    padding: 30px 0;
+  }
+
+  .services__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 380px) {
+  .h1 {
+    font-size: 46px;
+    line-height: 64px;
+  }
+
+  .h4 {
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 734px;
+  }
 }
