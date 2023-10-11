@@ -377,27 +377,6 @@ h1, h2, h3, h4, h5, h6, p
   color: var(--gray-color)
   max-width: 73rem
 
-.question_h3.close
-  margin-bottom: 3.1rem
-
-
-.question_h3.open::before,
-.question_h3.close::before
-  content: ""
-  display: inline-block
-  width: 1.5rem
-  height: 1.5rem
-  background-image: url(../img/arrow-icon.svg)
-  background-repeat: no-repeat
-  background-position: center
-  margin-right: 1.4rem
-
-.question_h3.open::before
-  transform: rotate(-90deg)
-
-.question_h3.close + .question_p
-  display: none
-//
 //@media screen and (max-width: 1280px)
 //  .question
 //    padding: 15rem 1.5rem 11rem
@@ -494,6 +473,7 @@ h1, h2, h3, h4, h5, h6, p
   max-width: 25.5rem
   text-align: center
 
+
 .contacts__icon
   width: 5rem
   height: 5rem
@@ -501,6 +481,10 @@ h1, h2, h3, h4, h5, h6, p
 
 .contacts__h3
   text-transform: uppercase
+
+.contacts__h3 > a
+  text-decoration: none
+  color: inherit
 
 .contacts__h3-gray
   color: var(--gray-color)
