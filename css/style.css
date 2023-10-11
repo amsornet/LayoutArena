@@ -2,6 +2,7 @@
 /*font-family: 'Oswald', sans-serif; */
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *, *::before, *::after {
@@ -40,56 +41,56 @@ h1, h2, h3, h4, h5, h6, p {
 .text-h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 3.6rem;
   text-transform: uppercase;
 }
 
 .text-h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .text-h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 2.1rem;
   letter-spacing: 0.02em;
 }
 
 .text-p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .text-p-reviews {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
 }
 
 .header {
-  min-height: 740px;
+  min-height: 74rem;
   background-image: url(../img/first-screen-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .header__title {
-  padding-top: 20px;
-  margin-bottom: 112px;
+  padding-top: 2rem;
+  margin-bottom: 11.2rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
 .Logo {
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
 }
 
 .burger {
-  width: 50px;
+  width: 5rem;
   cursor: pointer;
   padding: 0;
   background-color: var(--accent-color);
@@ -101,10 +102,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .burger .burger__line {
   display: block;
-  width: 21px;
-  height: 3px;
+  width: 2.1rem;
+  height: 0.3rem;
   background-color: #FFFFFF;
-  margin-bottom: 4px;
+  margin-bottom: 0.4rem;
 }
 .burger .burger__line:last-child {
   margin-bottom: 0;
@@ -112,71 +113,71 @@ h1, h2, h3, h4, h5, h6, p {
 
 .h1 {
   font-weight: 500;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
   text-align: center;
-  letter-spacing: 1.28px;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  max-width: 734px;
-  margin: 0 auto 17px;
+  max-width: 73.4rem;
+  margin: 0 auto 1.7rem;
   color: var(--white-color);
 }
 
 .h4 {
   margin: 0 auto;
-  max-width: 734px;
+  max-width: 73.4rem;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
 }
 
 .about {
-  padding-top: 250px;
-  min-height: 1080px;
+  padding-top: 25rem;
+  min-height: 108rem;
   position: relative;
 }
 
 .info {
   position: absolute;
-  top: -150px;
+  top: -15rem;
   background-color: #F7F7F7;
   left: 50%;
   transform: translate(-50%);
-  max-width: 1110px;
-  min-height: 300px;
+  max-width: 111rem;
+  min-height: 30rem;
   width: 100%;
-  padding: 57px 130px;
+  padding: 5.7rem 13rem;
 }
 
 .about__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 3rem;
   justify-items: center;
 }
 
 .about__grid-item {
   text-align: center;
-  width: 190px;
+  width: 19rem;
 }
 .about__grid-item .about__h4 {
   color: var(--accent-color);
-  font-size: 72px;
+  font-size: 7.2rem;
   font-weight: 500;
   text-transform: uppercase;
-  margin-botttom: 5px;
+  margin-botttom: 0.5rem;
 }
 .about__grid-item .about__h5 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 500;
   text-transform: uppercase;
 }
 .about__grid-item .about__p {
   color: var(--gray-color);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -198,7 +199,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .project-h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .about__flex {
@@ -206,8 +207,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about__flex-item {
-  max-width: 350px;
-  margin-right: 30px;
+  max-width: 35rem;
+  margin-right: 3rem;
 }
 
 .about__flex-item:last-child {
@@ -215,19 +216,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .project-img {
-  margin-bottom: 45px;
+  margin-bottom: 4.5rem;
 }
 
 .rectangle {
-  width: 56px;
-  height: 6px;
+  width: 5.6rem;
+  height: 0.6rem;
   background-color: var(--accent-color);
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .project-h3 {
   color: var(--dark-color);
-  margin-bottom: 13px;
+  margin-bottom: 1.3rem;
 }
 
 .project-p {
@@ -236,13 +237,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1280px) {
   .about {
-    padding: 450px -15px -110px -15px;
+    padding: 45rem -1.5rem -11rem -1.5rem;
   }
 }
 @media screen and (max-width: 768px) {
   .about {
-    padding-top: 150px;
-    padding-bottom: 80px;
+    padding-top: 15rem;
+    padding-bottom: 8rem;
   }
 
   .about__flex {
@@ -252,7 +253,7 @@ h1, h2, h3, h4, h5, h6, p {
 
   .about__flex-item {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 
   .about__flex-item:last-child {
@@ -261,8 +262,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .request {
   background-color: var(--accent-color);
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 .request__flex {
@@ -278,16 +279,16 @@ h1, h2, h3, h4, h5, h6, p {
 .request_h4 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 48px;
-  line-height: 71px;
+  font-size: 4.8rem;
+  line-height: 7.1rem;
   letter-spacing: 0.02em;
-  margin-bottom: 7px;
+  margin-bottom: 0.7rem;
 }
 
 .request__h5 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4rem;
   letter-spacing: 0.02em;
 }
 
@@ -301,17 +302,17 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   font-size: 14;
   letter-spacing: 0.05em;
-  padding: 14px 30px;
-  margin-top: 20px;
+  padding: 1.4rem 3rem;
+  margin-top: 2rem;
 }
 
 .request__icon {
-  margin-right: 15px;
+  margin-right: 1.5rem;
 }
 
 @media screen and (max-width: 1280px) {
   .request {
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -320,7 +321,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 .services {
-  padding: 150px 0;
+  padding: 15rem 0;
 }
 
 .services__h2, .services__h4 {
@@ -330,12 +331,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section__h2 {
   text-align: center;
-  margin-bottom: 55px;
+  margin-bottom: 5.5rem;
 }
 
 .services__h4 {
   margin: 0 auto;
-  max-width: 172px;
+  max-width: 17.2rem;
   text-transform: uppercase;
 }
 
@@ -343,24 +344,24 @@ h1, h2, h3, h4, h5, h6, p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 30px;
+  gap: 3rem;
   justify-items: center;
 }
 
 .services__grid-item {
-  padding: 59px 0;
+  padding: 5.9rem 0;
   background-color: #F7F7F7;
-  width: 350px;
+  width: 35rem;
 }
 
 .services__icon {
-  margin: 0 auto 21px;
+  margin: 0 auto 2.1rem;
 }
 
 @media screen and (max-width: 1280px) {
   .services {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .services__grid {
@@ -375,7 +376,7 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 768px) {
   .info {
     position: relative;
-    padding: 30px 0;
+    padding: 3rem 0;
   }
 
   .services__grid {
@@ -384,14 +385,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @media screen and (max-width: 380px) {
   .h1 {
-    font-size: 46px;
-    line-height: 64px;
+    font-size: 4.6rem;
+    line-height: 6.4rem;
   }
 
   .h4 {
     margin: 0 auto;
     font-weight: 400;
-    max-width: 734px;
+    max-width: 73.4rem;
   }
 }
 .portfolio__grid {
@@ -412,40 +413,40 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 .question {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .question .section__h2 {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .question_h3 {
   text-transform: uppercase;
   color: var(--accent-color);
-  margin-bottom: 23px;
+  margin-bottom: 2.3rem;
 }
 
 .question_p {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   color: var(--gray-color);
-  max-width: 730px;
+  max-width: 73rem;
 }
 
 .question_h3.close {
-  margin-bottom: 31px;
+  margin-bottom: 3.1rem;
 }
 
 .question_h3.open::before,
 .question_h3.close::before {
   content: "";
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-image: url(../img/arrow-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 14px;
+  margin-right: 1.4rem;
 }
 
 .question_h3.open::before {
@@ -458,6 +459,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1280px) {
   .question {
-    padding: 150px 15px 110px;
+    padding: 15rem 1.5rem 11rem;
   }
+}
+.partners {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: var(--dark-color);
 }
