@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6, p
   text-transform: uppercase
   font-family: 'Oswald', sans-serif
   font-weight: 500
-  font-size: 14
+  font-size: 14px
   letter-spacing: 0.05em
   padding: 1.4rem 3rem
   margin-top: 2rem
@@ -535,7 +535,23 @@ h1, h2, h3, h4, h5, h6, p
   .contacts__item
     max-width: 100%
 
+.footer
+  padding: 3rem 0
+  background-color: var(--dark-color)
+  color: var(--white-color)
 
+.footer__flex
+  display: flex
+  justify-content: space-between
+
+@media screen and (max-width: 1280px)
+  .footer
+    padding: 3rem 1.5rem
+
+@media screen and (max-width: 768px)
+  .footer__flex
+    flex-direction: column
+    gap: 1rem
 
 
 
