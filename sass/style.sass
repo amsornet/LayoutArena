@@ -451,6 +451,47 @@ h1, h2, h3, h4, h5, h6, p
     margin-right: 1rem
     margin-left: 1rem
 
+.reviews
+  padding: 15rem 0 14.2rem
+
+.reviews__h2
+  text-align: center
+  margin-bottom: 6rem
+
+.reviews__grid
+  display: grid
+  gap: 3rem
+  grid-template-columns: repeat(3, 1fr)
+
+.reviews__card
+  background-color: #F7F7F7
+  padding: 3rem 2.8rem
+  margin-bottom: 3.5rem
+
+.reviews__quotes
+  font-size: 96px
+  color: var(--accent-color)
+  line-height: 1
+  margin-bottom: -4rem
+
+.reviews__author-accent
+  color: var(--accent-color)
+
+
+@media screen and (max-width: 1280px)
+  .reviews
+    padding: 10rem 0 1.5rem
+
+  .reviews__grid
+    grid-template-columns: repeat(2, 1fr)
+
+
+@media screen and (max-width: 768px)
+  .reviews__grid
+    grid-template-columns: repeat(1, 1fr)
+
+
+
 
 
 
