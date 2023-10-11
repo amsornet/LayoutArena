@@ -490,6 +490,54 @@ h1, h2, h3, h4, h5, h6, p
   .reviews__grid
     grid-template-columns: repeat(1, 1fr)
 
+.contacts
+  padding: 10rem 0 15rem
+
+.contacts__h2
+  text-align: center
+  margin-bottom: 6rem
+
+.contacts__grid
+  display: grid
+  gap: 3rem
+  grid-template-columns: repeat(4, 1fr)
+
+.contacts__item
+  max-width: 25.5rem
+  text-align: center
+
+.contacts__icon
+  width: 5rem
+  height: 5rem
+  margin: 0 auto 1.3rem
+
+.contacts__h3
+  text-transform: uppercase
+
+.contacts__h3-gray
+  color: var(--gray-color)
+  margin-bottom: 1.8rem
+
+.contacts__h3-accent
+  color: var(--accent-color)
+
+@media screen and (max-width: 1280px)
+  .contacts__grid
+    grid-template-columns: repeat(2, 1fr)
+
+  .contacts__item
+    max-width: 100%
+
+@media screen and (max-width: 768px)
+  .contacts__grid
+    grid-template-columns: repeat(1, 1fr)
+
+  .contacts__item
+    max-width: 100%
+
+
+
+
 
 
 
