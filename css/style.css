@@ -464,6 +464,44 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .partners {
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
   background-color: var(--dark-color);
+}
+
+.partners__h2 {
+  color: var(--white-color);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.partners_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  max-width: 17rem;
+}
+
+.partners__item:nth-child(5n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .partners__flex {
+    justify-content: center;
+  }
+
+  .partners__item {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .partners__item:nth-child(5n) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
